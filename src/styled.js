@@ -9,15 +9,15 @@ export const Apps = styled.div`
 export const Container = styled.div`
     width: 100vw;
     height: 100vh;
-    background-color: #07B369 ;
+    background-color: black ;
     display: flex;
     justify-content: center;
     align-items: center;
 `
 export const Container2 = styled.div`
-    width: 100vw;
+    width: 8170vw;
     height: 100vh;
-    background-color: #932873 ;
+    background-color: #EDE9F0 ;
     display: flex;
     justify-content: center;
     align-items: center;
