@@ -1,16 +1,24 @@
 import React from "react";
-import {Container} from "../home/styled";
-// import Button from "@material-ui/core"
+import {ButtonsContainer, Container, Infos, Title} from "../home/styled";
+import flecha from "../assets/img/flecha.png"
 
 const Home = () => {
     return (
         <div>
             <Container>
-                <h1>Trabalho de Ecodesign</h1>
-                <h2>Amazônia</h2>
-                <p>Informações</p>
-                <button>Comece a explorar</button>
-                {/* <Button color="secondary">Comece a explorar</Button> */}
+                <Title>
+                    <h1>Trabalho de Ecodesign</h1>
+                    <h2>A Amazônia</h2>
+                </Title>
+                <Infos>
+                    <p>Informações</p>
+                </Infos>
+                <ButtonsContainer>
+                    <h2>Comece a explorar</h2>
+                    <button>
+                        <img src={flecha} alt={"Imagem de flecha para direita"}/>
+                    </button>
+                </ButtonsContainer>
             </Container>
         </div>
     );

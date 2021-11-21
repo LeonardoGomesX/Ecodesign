@@ -1,6 +1,7 @@
 import React from "react";
-import {Main, Pix, Container, CampoFutPixel, PortoAlegre, Portugal} from "../Infos1/styled";
-
+import {Main, Pix, Container, CampoFutPixel, PortoAlegre, Amazonia, TituloAmazonica, Portugal, TituloPortugal, DetailsContainer} from "../Infos1/styled";
+import Description from "../components/Description/Description"
+import Figure from "../components/Figure/Figure"
 
 const Tela1 = () => {
     return (
@@ -16,11 +17,32 @@ const Tela1 = () => {
                 <Pix>(70px X 70px)</Pix>
                 <PortoAlegre> </PortoAlegre>
             </Container>
+
+            <Container>
+                <Portugal>
+                    <TituloPortugal>
+                        <h3>Portugal</h3>
+                        <h3>(70px X 70px)</h3>
+                    </TituloPortugal>
+                </Portugal>
+            </Container>
             
             <Container>
-                <h3>Portugal</h3>
-                <Pix>(1840px X 500px)</Pix>
-                <Portugal> </Portugal>
+                <Amazonia> 
+                    <TituloAmazonica>
+                        <h3>Tamanho Amazônia Legal</h3>
+                        <h3>(55500px X 500px : escala 1/2px)</h3>
+                    </TituloAmazonica>
+                    <DetailsContainer>
+                        <Description/>
+                        <Figure />
+                        <Description />
+                        <Figure />
+                        <Description />
+                        <Description />
+                        <Description />
+                    </DetailsContainer>
+                </Amazonia>
             </Container>
 
         </Main>
