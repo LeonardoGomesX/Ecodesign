@@ -6,7 +6,7 @@ export const Main = styled.div`
 
 export const TituloDesmatamento = styled.div`
     width: fit-content;
-    margin-left: 40px;
+    margin-left: 20px;
     position: sticky;
     left: 0;
     padding-left: 20px;
@@ -100,3 +100,38 @@ export const DesmatamentoContainer7 = styled.div`
 `
 
 /////////////////
+
+export const DesmatamentoContainer8 = styled.div`
+    display: flex;
+    width: 12vw;
+    height: 300px;
+    max-width: 183,5px;
+    background-color: #eb8822;
+    margin-left: 100px;
+    box-shadow: 5px 5px 30px #7a430b;
+`
+
+export const TituloDesmatamento2 = styled.div`
+    width: fit-content;
+    margin-left: 10px;
+    position: sticky;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 150px;
+
+    h3:nth-child(2) {
+        color: #3a33b3;
+    }
+`
+
+/////////////////////
+
+export const DesmatamentoContainer9 = styled.div`
+    display: flex;
+    width: 25vw;
+    height: 300px;
+    max-width: 475px;
+    background-color: #eb8822;
+    margin-left: 100px;
+    box-shadow: 5px 5px 30px #7a430b;
+`
