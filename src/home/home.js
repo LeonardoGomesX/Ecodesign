@@ -11,7 +11,7 @@ const Home = () => {
                     <h2>A Amazônia</h2>
                 </Title>
                 <Infos>
-                    <p>Informações</p>
+                    <p>?</p>
                 </Infos>
                 <ButtonsContainer>
                     <h2>Comece a explorar</h2>
