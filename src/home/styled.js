@@ -30,11 +30,13 @@ export const Title = styled.div`
 export const Infos = styled.div`
     p {
         color: white;
+        margin-top: -70px;
     }
 `
 
 export const ButtonsContainer = styled.div`
     display: flex;
+    margin-top: -90px;
 
     h2 {
         color: white;
@@ -49,7 +51,6 @@ export const ButtonsContainer = styled.div`
         height: 50px;
         border-radius: 10px;
         margin-bottom: 10px;
-        margin-bottom: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -60,7 +61,7 @@ export const ButtonsContainer = styled.div`
         :hover {
             color:white;
             background-color: #07B369;
-            border: none
+            border: none;
         }
     }
 `

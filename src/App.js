@@ -2,7 +2,7 @@ import React from "react";
 import HorizontalScroll from "react-scroll-horizontal";
 import { Apps, Container, Container2, Container3 } from "./styled";
 import Home from "./home/home";
-import Tela1 from "./Infos1/Tela1";
+import Tela from "./Escopo/Tela";
 
 function App() {
   return (
@@ -15,11 +15,11 @@ function App() {
           </Container>
           
           <Container2>
-            <Tela1 />
+            <Tela />
           </Container2>
           
           <Container3>
-            <h1>Ecodesign</h1>
+            <h1>Integrantes</h1>
           </Container3>
         </HorizontalScroll>
       </Apps>

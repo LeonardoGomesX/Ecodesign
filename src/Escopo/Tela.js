@@ -1,15 +1,16 @@
 import React from "react";
-import {Main, Pix, Container, CampoFutPixel, PortoAlegre, Amazonia, TituloAmazonica, Portugal, TituloPortugal, DetailsContainer} from "../Infos1/styled";
+import {Main, Pix, Container, CampoFutPixel, PortoAlegre, Amazonia, TituloAmazonica, Portugal, TituloPortugal, DetailsContainer} from "./styled";
 import Description from "../components/Description/Description"
 import Figure from "../components/Figure/Figure"
+import Desmatamento from "../components/Desmatamento/Desmatamento"
 
-const Tela1 = () => {
+const Tela = () => {
     return (
         <Main>
             <Container>
                 <h3>12 campos de futebol</h3>
                 <Pix>(1 pixel)</Pix>
-                <CampoFutPixel> </CampoFutPixel>
+                <CampoFutPixel> <div/> </CampoFutPixel>
             </Container>
             
             <Container>
@@ -22,7 +23,7 @@ const Tela1 = () => {
                 <Portugal>
                     <TituloPortugal>
                         <h3>Portugal</h3>
-                        <h3>(70px X 70px)</h3>
+                        <h3>(1840px X 500px)</h3>
                     </TituloPortugal>
                 </Portugal>
             </Container>
@@ -41,6 +42,8 @@ const Tela1 = () => {
                         <Description />
                         <Description />
                         <Description />
+
+                        <Desmatamento />
                     </DetailsContainer>
                 </Amazonia>
             </Container>
@@ -49,4 +52,4 @@ const Tela1 = () => {
     );
 }
 
-export default Tela1;
+export default Tela;

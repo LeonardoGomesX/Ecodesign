@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Main = styled.div`
     display: flex;
-    /* margin-bottom: 55px; */
 `
 
 export const Container = styled.div`
@@ -15,12 +14,22 @@ export const Container = styled.div`
 
 export const Pix = styled.h3`
     color: red;
+    margin-top: 1px;
 `
 
 export const CampoFutPixel = styled.div`
-    width: 1px;
-    height: 1px;
-    background-color: #07B369;
+    background-color: black;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+
+    div{
+        width: 1px;
+        height: 1px;
+        background-color: #07B369;
+        margin: 0 auto;
+        margin-top: 9px;
+    }
 `
 
 export const PortoAlegre = styled.div`
@@ -35,6 +44,7 @@ export const Portugal = styled.div`
     height: 500px;
     background-color: #07B369;
     margin-right: 150px;
+    margin-left: 70px;
 `
 
 export const TituloPortugal = styled.div`
