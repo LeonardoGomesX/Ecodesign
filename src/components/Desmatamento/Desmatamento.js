@@ -1,11 +1,13 @@
 import React from "react";
-import {Main, TituloDesmatamento, DesmatamentoContainer,
+import {Main, TituloDesmatamento, TituloDesmatamento2, DesmatamentoContainer,
     DesmatamentoContainer2, 
     DesmatamentoContainer3,
     DesmatamentoContainer4,
     DesmatamentoContainer5,
     DesmatamentoContainer6,
-    DesmatamentoContainer7 } from "./styled";
+    DesmatamentoContainer7,
+    DesmatamentoContainer8,
+    DesmatamentoContainer9} from "./styled";
 
 const Desmatamento = () => {
     return (
@@ -59,6 +61,29 @@ const Desmatamento = () => {
                 <h3>(1996,5px X 300px : escala 1/2px)</h3>
             </TituloDesmatamento>
         </DesmatamentoContainer7>
+
+        <DesmatamentoContainer8>
+            <TituloDesmatamento2>
+                <h3>Desmatamento 2014</h3>
+                <h3>(83,5px X 300px : escala 1/2px)</h3>
+            </TituloDesmatamento2>
+        </DesmatamentoContainer8>
+
+        <DesmatamentoContainer9>
+            <TituloDesmatamento>
+                <h3>Desmatamento 2015 - 2018</h3>
+                <h3>(475px X 300px : escala 1/2px)</h3>
+            </TituloDesmatamento>
+        </DesmatamentoContainer9>
+
+        <p>Linha retilhada aqui</p>
+
+        <DesmatamentoContainer10>
+            <TituloDesmatamento>
+                <h3>Desmatamento 2019 - 2021</h3>
+                <h3>(498px X 300px : escala 1/2px)</h3>
+            </TituloDesmatamento>
+        </DesmatamentoContainer10>
 
         </Main>
     )
