@@ -15,7 +15,7 @@ export const Container = styled.div`
     align-items: center;
 `
 export const Container2 = styled.div`
-    width: 8170vw;
+    width: 3750vw;
     height: 100vh;
     background-color: #EDE9F0 ;
     display: flex;

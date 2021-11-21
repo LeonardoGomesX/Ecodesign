@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.div`
     display: flex;
+    /* margin-bottom: 55px; */
 `
 
 export const Container = styled.div`
@@ -29,7 +30,48 @@ export const PortoAlegre = styled.div`
 `
 
 export const Portugal = styled.div`
-    width: 111000px;
+    width: 96vw;
+    max-width: 1840px;
     height: 500px;
     background-color: #07B369;
+    margin-right: 150px;
+`
+
+export const TituloPortugal = styled.div`
+    width: fit-content;
+    margin-left: 40px;
+    position: sticky;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 150px;
+
+    h3:nth-child(2) {
+        color: #f6dc24
+    }
+`
+
+export const Amazonia = styled.div`
+    width: 3585vw;
+    max-width: 55500px;
+    height: 500px;
+    background-color: #07B369;
+    display: flex;
+    flex-direction: column;
+`
+
+export const DetailsContainer = styled.div`
+    display: flex;
+`
+
+export const TituloAmazonica = styled.div`
+    width: fit-content;
+    margin-left: 40px;
+    position: sticky;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 150px;
+
+    h3:nth-child(2) {
+        color: #f6dc24
+    }
 `
