@@ -76,6 +76,15 @@ const Desmatamento = () => {
             </TituloDesmatamento>
         </DesmatamentoContainer9>
 
+        <p>Linha retilhada aqui</p>
+
+        <DesmatamentoContainer10>
+            <TituloDesmatamento>
+                <h3>Desmatamento 2019 - 2021</h3>
+                <h3>(498px X 300px : escala 1/2px)</h3>
+            </TituloDesmatamento>
+        </DesmatamentoContainer10>
+
         </Main>
     )
 }

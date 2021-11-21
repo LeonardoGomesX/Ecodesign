@@ -135,3 +135,20 @@ export const DesmatamentoContainer9 = styled.div`
     margin-left: 100px;
     box-shadow: 5px 5px 30px #7a430b;
 `
+
+////////////////////
+
+////  POS - BOLSONARO
+
+/// (Linha retilhada aqui)
+
+
+export const DesmatamentoContainer10 = styled.div`
+    display: flex;
+    width: 26vw;
+    height: 300px;
+    max-width: 498px;
+    background-color: #eb8822;
+    margin-left: 100px;
+    box-shadow: 5px 5px 30px #7a430b;
+`
