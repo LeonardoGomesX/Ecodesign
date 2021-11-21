@@ -2,4 +2,4 @@
 
 # Link 
 
-- [Amazônia](https://ecodesign-amazonia.surge.sh/)
+- [Amazônia](https://amazonia-ecodesign.surge.sh/)
