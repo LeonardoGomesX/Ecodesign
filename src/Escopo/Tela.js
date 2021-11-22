@@ -4,19 +4,21 @@ import Description from "../components/Description/Description"
 import Figure from "../components/Figure/Figure"
 import Desmatamento from "../components/Desmatamento/Desmatamento"
 import escala from "../assets/img/scale.png"
+import indicador from "../assets/img/indicador.png"
 
 const Tela = () => {
 
     return (
         <Main>
             <Container>
-                <h3>12 campos de futebol</h3>
+                <h3>12 campos de futebol (8.250 m²)</h3>
                 <Pix>(1 pixel)</Pix>
                 <CampoFutPixel> <div/> </CampoFutPixel>
+                <img src={indicador} alt=" foto indicador" />
             </Container>
             
             <Container>
-                <h3>Porto Alegre</h3>
+                <h3>Porto Alegre (496,8 km²)</h3>
                 <Pix>(70px X 70px)</Pix>
                 <PortoAlegre> </PortoAlegre>
             </Container>
@@ -24,7 +26,7 @@ const Tela = () => {
             <Container>
                 <Portugal>
                     <TituloPortugal>
-                        <h3>Portugal</h3>
+                        <h3>Portugal (92.212 km²)</h3>
                         <h3>(1840px X 500px)</h3>
                     </TituloPortugal>
                 </Portugal>
@@ -34,16 +36,21 @@ const Tela = () => {
                 <Amazonia> 
                     <TituloAmazonica>
                         <h3>Tamanho Amazônia Legal</h3>
-                        <h3>(55500px X 500px : escala 1/2px)</h3>
+                        <h3>( 5.033.072 km² )</h3>
                     </TituloAmazonica>
                     <DetailsContainer>
                         <Description/>
-                        <Figure />
+                        <Description />
+                        <Description />
+                        <Description />
+                        <Description />
+                        <Description />
+                        <Description />
+                        <Description />
+                        <Description />
+                        <Description />
                         <Description />
                         <Figure />
-                        <Description />
-                        <Description />
-                        <Description />
 
                         <Desmatamento />
                     </DetailsContainer>
