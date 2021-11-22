@@ -19,18 +19,13 @@ export const Pix = styled.h3`
 `
 
 export const CampoFutPixel = styled.div`
-    background-color: black;
-        width: 20px;
-        height: 20px;
-        border-radius: 10px;
-
-    div{
         width: 1px;
         height: 1px;
         background-color: #07B369;
         margin: 0 auto;
-        margin-top: 9px;
-    }
+        margin-top: 2px;
+        margin-bottom: 5px;
+
 `
 
 export const PortoAlegre = styled.div`
@@ -57,13 +52,14 @@ export const TituloPortugal = styled.div`
     padding-right: 150px;
 
     h3:nth-child(2) {
-        color: #f6dc24
+        color: black;
+        
     }
 `
 
 export const Amazonia = styled.div`
-    width: 3585vw;
-    max-width: 55500px;
+    width: 5729vw;
+    max-width: 111000px;
     height: 500px;
     background-color: #07B369;
     display: flex;
@@ -84,15 +80,19 @@ export const TituloAmazonica = styled.div`
     padding-right: 150px;
 
     h3:nth-child(2) {
-        color: #f6dc24;
-        margin-top: -10px;
+        color: black;
+        margin-top: -15px;
     }
 `
+
 export const EscaleCotainer = styled.div`
     width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: sticky;
+    left: 0;
+    margin-top: 35px;
 
     p {
         margin: 0;
@@ -100,14 +100,13 @@ export const EscaleCotainer = styled.div`
     }
 
     img {
-        width: 165px;
+        width: 168px;
     }
 `
 
 export const ReguaContainer = styled.div`
-    width: 3585vw;
-    max-width: 55500px;
-    height: 60px;
-    margin-top: 12px;
+    width: 5729vw;
+    max-width: 111000px;
+    height: 35px;
     background-image: url(${regua});
 `
