@@ -1,10 +1,12 @@
 import React from "react";
-import {Main, Pix, Container, CampoFutPixel, PortoAlegre, Amazonia, TituloAmazonica, Portugal, TituloPortugal, DetailsContainer} from "./styled";
+import {Main, Pix, Container, CampoFutPixel, PortoAlegre, Amazonia, TituloAmazonica, Portugal, TituloPortugal, DetailsContainer, ReguaContainer, EscaleCotainer} from "./styled";
 import Description from "../components/Description/Description"
 import Figure from "../components/Figure/Figure"
 import Desmatamento from "../components/Desmatamento/Desmatamento"
+import escala from "../assets/img/scale.png"
 
 const Tela = () => {
+
     return (
         <Main>
             <Container>
@@ -45,6 +47,13 @@ const Tela = () => {
 
                         <Desmatamento />
                     </DetailsContainer>
+                    <EscaleCotainer>
+                        <p>5 mil km²</p>
+                        <img src={escala} alt={"Escala da régua"}/>
+                    </EscaleCotainer>
+                    <ReguaContainer>
+                        
+                    </ReguaContainer>
                 </Amazonia>
             </Container>
 

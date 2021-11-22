@@ -140,7 +140,22 @@ export const DesmatamentoContainer9 = styled.div`
 
 ////  POS - BOLSONARO
 
-/// (Linha retilhada aqui)
+export const BiroliroContainier = styled.div`
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 85px;
+
+    img {
+        width: 25px;
+    }
+
+    h3 {
+        margin: 0px;
+        margin-bottom: 23px;
+    }
+`
 
 
 export const DesmatamentoContainer10 = styled.div`

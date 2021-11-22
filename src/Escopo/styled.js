@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import regua from "../assets/img/ruler.svg"
 
 export const Main = styled.div`
     display: flex;
@@ -67,6 +68,7 @@ export const Amazonia = styled.div`
     background-color: #07B369;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 `
 
 export const DetailsContainer = styled.div`
@@ -82,6 +84,30 @@ export const TituloAmazonica = styled.div`
     padding-right: 150px;
 
     h3:nth-child(2) {
-        color: #f6dc24
+        color: #f6dc24;
+        margin-top: -10px;
     }
+`
+export const EscaleCotainer = styled.div`
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        margin: 0;
+        font-weight: bold;
+    }
+
+    img {
+        width: 165px;
+    }
+`
+
+export const ReguaContainer = styled.div`
+    width: 3585vw;
+    max-width: 55500px;
+    height: 60px;
+    margin-top: 12px;
+    background-image: url(${regua});
 `
