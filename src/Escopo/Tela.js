@@ -1,5 +1,5 @@
 import React from "react";
-import {Main, Pix, Container, CampoFutPixel, PortoAlegre, Amazonia, TituloAmazonica, Portugal, TituloPortugal, DetailsContainer, ReguaContainer, EscaleCotainer, DetaisTextContainer} from "./styled";
+import {Main, Container, CampoFutPixel, PortoAlegre, Amazonia, TituloAmazonica, Portugal, TituloPortugal, DetailsContainer, ReguaContainer, EscaleCotainer, DetaisTextContainer} from "./styled";
 import Description from "../components/Description/Description"
 import Figure from "../components/Figure/Figure"
 import Desmatamento from "../components/Desmatamento/Desmatamento"
