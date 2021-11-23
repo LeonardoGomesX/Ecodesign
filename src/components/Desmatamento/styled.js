@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.div`
     display: flex;
+    margin-right: 200px;
 `
 
 export const TituloDesmatamento = styled.div`
@@ -13,15 +14,28 @@ export const TituloDesmatamento = styled.div`
     padding-right: 50px;
     margin-bottom: -50px;
 
-    h3:nth-child(2) {
+    h3 {
+        color: ghostwhite;
+    }
+`
+export const TituloDesmatamento3 = styled.div`
+    width: fit-content;
+    margin-left: 20px;
+    position: sticky;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-bottom: -50px;
+
+    h3 {
         color: black;
-        margin-top: -15px;
     }
 `
 
 export const MataOrigContainer = styled.div`
 
     display: flex;
+    flex-direction: column;
     width: 1193vw;
     height: 300px;
     max-width: 22667px;
@@ -35,16 +49,31 @@ export const MataOrigContainer = styled.div`
     }
 `
 
+export const InfosContainer = styled.div`
+    display: flex;
+    justify-content: space-between;
+    margin-right: 250px;
+`
+
 export const MataAtualContainer = styled.div`
     display: flex;
     width: 177vw;
     height: 150px;
     max-width: 3400px;
     background-color: #5CE1E6;
-    margin-top: 80px;
-    margin-left: -447px;
+    margin-top: 70px;
     padding-right: 250px;
     box-shadow: 5px 5px 10px #2f2400;
+`
+
+export const TextoContainer = styled.div`
+    width: 550px;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    color: ghostwhite;
 `
 /////////////////
 
@@ -58,6 +87,32 @@ export const RioGrande = styled.div`
     margin-left: 100px;
     padding-right: 200px;
     box-shadow: 5px 5px 10px #2f2400;
+`
+export const TituloRioGrande = styled.div`
+    width: fit-content;
+    margin-left: 20px;
+    position: sticky;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-bottom: -50px;
+
+    h3 {
+        color: black;
+    }
+`
+export const TituloReinoUnido = styled.div`
+    width: fit-content;
+    margin-left: 20px;
+    position: sticky;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-bottom: -50px;
+
+    h3 {
+        color: black;
+    }
 `
 
 export const ReinoUnido = styled.div`
@@ -81,7 +136,19 @@ export const Japao = styled.div`
     padding-right: 200px;
     box-shadow: 5px 5px 10px #2f2400;
 `
+export const TituloJapao = styled.div`
+    width: fit-content;
+    margin-left: 20px;
+    position: sticky;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-bottom: -50px;
 
+    h3 {
+        color: black;
+    }
+`
 
 //////////////
 
@@ -94,7 +161,19 @@ export const DesmatamentoContainer = styled.div`
     margin-left: 100px;
     box-shadow: 5px 5px 10px #2f2400;
 `
+export const TitulosDesmatamentos = styled.div`
+    width: fit-content;
+    margin-left: 20px;
+    position: sticky;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-bottom: -50px;
 
+    h3 {
+        color: black;
+    }
+`
 /////////////
 
 export const DesmatamentoContainer2 = styled.div`

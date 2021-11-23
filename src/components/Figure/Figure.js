@@ -1,16 +1,12 @@
 import React from "react";
-import grafico from "../../assets/img/grafico.png"
-import pizza from "../../assets/img/pizza.png"
+import Grafico from "../../assets/img/Grafico.png"
 import { FigureContainer } from "./styled";
 
 const Figure = () => {
     return (
         <FigureContainer>
             <div>
-                <img src={pizza} alt={"Grafico em pizza"}/>
-            </div>
-            <div>
-                <img src={grafico} alt={"Grafico normal"}/>
+                <img src={Grafico} alt={"Gráfico normal"}/>
             </div>
         </FigureContainer>
     )
