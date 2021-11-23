@@ -209,7 +209,7 @@ export const DesmatamentoContainer3 = styled.div`
 export const DesmatamentoContainer4 = styled.div`
     display: flex;
     /* width: 25vw; */
-    width: 50vw;
+    width: 62vw;
     height: 300px;
     /* max-width: 485px; */
     max-width: 970px;
@@ -264,8 +264,7 @@ export const DesmatamentoContainer7 = styled.div`
 
 export const DesmatamentoContainer8 = styled.div`
     display: flex;
-    /* width: 12vw; */
-    width: 24vw;
+    width: 12vw;
     height: 300px;
     /* max-width: 183,5px; */
     max-width: 367px;
@@ -293,7 +292,7 @@ export const TituloDesmatamento2 = styled.div`
 export const DesmatamentoContainer9 = styled.div`
     display: flex;
     /* width: 25vw; */
-    width: 50vw;
+    width: 55vw;
     height: 300px;
     /* max-width: 475px; */
     max-width: 950px;
@@ -327,7 +326,7 @@ export const BiroliroContainier = styled.div`
 export const DesmatamentoContainer10 = styled.div`
     display: flex;
     /* width: 26vw; */
-    width: 52vw;
+    width: 60vw;
     height: 300px;
     /* max-width: 498px; */
     max-width: 996px;

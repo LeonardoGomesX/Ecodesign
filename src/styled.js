@@ -9,7 +9,7 @@ export const Apps = styled.div`
 export const Container = styled.div`
     width: 100vw;
     height: 100vh;
-    background-color: black ;
+    background-color: #ece9f0 ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@ export const Container3 = styled.div`
     width: 100vw;
     height: 100vh;
     color: white;
-    background-color: black ;
+    background-color: #ece9f0 ;
     display: flex;
     justify-content: center;
     align-items: center;
