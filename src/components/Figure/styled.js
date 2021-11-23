@@ -6,4 +6,8 @@ export const FigureContainer = styled.div`
     justify-content: space-evenly;
     width: 530px;
     height: 280px;
+
+    img {
+        width: 300px;
+    }
 `

@@ -69,6 +69,11 @@ export const Amazonia = styled.div`
 
 export const DetailsContainer = styled.div`
     display: flex;
+    justify-content: space-between;
+`
+
+export const DetaisTextContainer = styled.div`
+    display: flex;
 `
 
 export const TituloAmazonica = styled.div`
@@ -100,7 +105,7 @@ export const EscaleCotainer = styled.div`
     }
 
     img {
-        width: 168px;
+        width: 165px;
     }
 `
 
