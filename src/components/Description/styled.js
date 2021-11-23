@@ -12,7 +12,6 @@ export const TextContainer = styled.div`
         font-family: Arial, Helvetica, sans-serif;
         align-items: center;
         justify-content: center;
-        color: black;
-        
+        color: black;  
     }
 `
