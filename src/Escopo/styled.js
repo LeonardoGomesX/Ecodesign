@@ -58,7 +58,7 @@ export const TituloPortugal = styled.div`
 `
 
 export const Amazonia = styled.div`
-    width: 5729vw;
+    width: 5781vw;
     max-width: 111000px;
     height: 500px;
     background-color: #07B369;
@@ -69,7 +69,7 @@ export const Amazonia = styled.div`
 
 export const DetailsContainer = styled.div`
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 `
 
 export const DetaisTextContainer = styled.div`
@@ -110,7 +110,7 @@ export const EscaleCotainer = styled.div`
 `
 
 export const ReguaContainer = styled.div`
-    width: 5729vw;
+    width: 5781vw;
     max-width: 111000px;
     height: 35px;
     background-image: url(${regua});

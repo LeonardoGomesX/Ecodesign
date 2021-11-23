@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 export const TextContainer = styled.div`
     width: 380px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 370px;
+    margin-right: 300px;
     display: flex;
     align-items: center;
 

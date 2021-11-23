@@ -15,19 +15,19 @@ export const Container = styled.div`
     align-items: center;
 `
 export const Container2 = styled.div`
-    width: 5920vw;
+    width: 5970vw;
     height: 100vh;
     background-color: #EDE9F0 ;
     display: flex;
     justify-content: center;
     align-items: center;
 `
-// export const Container3 = styled.div`
-//     width: 100vw;
-//     height: 100vh;
-//     color: white;
-//     background-color: black ;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// `
+export const Container3 = styled.div`
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background-color: black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`

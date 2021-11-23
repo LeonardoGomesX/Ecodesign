@@ -1,5 +1,5 @@
 import React from "react";
-import Grafico from "../../assets/img/Grafico.png"
+import Grafico from "../../assets/img/grafico.png"
 import { FigureContainer } from "./styled";
 
 const Figure = () => {
