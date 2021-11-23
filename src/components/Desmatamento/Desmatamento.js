@@ -69,7 +69,7 @@ const Desmatamento = () => {
         
         <DesmatamentoContainer>
             <TitulosDesmatamentos>
-                <h3>Desmatamento 1500 - 1988</h3>
+                <h3>Desmatamento 1500 - 1987</h3>
                 <h3>(346.873,44 km²)</h3>
             </TitulosDesmatamentos>
         </DesmatamentoContainer>
