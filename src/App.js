@@ -1,8 +1,9 @@
 import React from "react";
 import HorizontalScroll from "react-scroll-horizontal";
-import { Apps, Container, Container2, } from "./styled";
+import { Apps, Container, Container2, Container3 } from "./styled";
 import Home from "./home/home";
 import Tela from "./Escopo/Tela";
+import Final from "./Final/final"
 
 function App() {
   return (
@@ -18,9 +19,9 @@ function App() {
             <Tela />
           </Container2>
           
-          {/* <Container3>
-            <Tela />
-          </Container3> */}
+          <Container3>
+            <Final />
+          </Container3>
           
         </HorizontalScroll>
       </Apps>

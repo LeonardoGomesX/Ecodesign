@@ -36,9 +36,9 @@ export const MataOrigContainer = styled.div`
 
     display: flex;
     flex-direction: column;
-    width: 1193vw;
+    width: 2361vw;
     height: 300px;
-    max-width: 22667px;
+    max-width: 45334px;
     background-color: #004AAD;
     margin-left: 100px;
     box-shadow: 5px 5px 10px #2f2400;
@@ -57,7 +57,7 @@ export const InfosContainer = styled.div`
 
 export const MataAtualContainer = styled.div`
     display: flex;
-    width: 177vw;
+    width: 220vw;
     height: 150px;
     max-width: 3400px;
     background-color: #5CE1E6;
@@ -154,9 +154,11 @@ export const TituloJapao = styled.div`
 
 export const DesmatamentoContainer = styled.div`
     display: flex;
-    width: 301vw;
+    /* width: 301vw; */
+    width: 602vw;
     height: 300px;
-    max-width: 5781px;
+    /* max-width: 5781px; */
+    max-width: 11562px;
     background-color: #FFEEB7;
     margin-left: 100px;
     box-shadow: 5px 5px 10px #2f2400;
@@ -178,9 +180,11 @@ export const TitulosDesmatamentos = styled.div`
 
 export const DesmatamentoContainer2 = styled.div`
     display: flex;
-    width: 36vw;
+    /* width: 36vw; */
+    width: 72vw;
     height: 300px;
-    max-width: 350px;
+    /* max-width: 350px; */
+    max-width: 700px;
     background-color: #FFEEB7;
     margin-left: 100px;
     box-shadow: 5px 5px 10px #2f2400;
@@ -190,9 +194,11 @@ export const DesmatamentoContainer2 = styled.div`
 
 export const DesmatamentoContainer3 = styled.div`
     display: flex;
-    width: 75vw;
+    /* width: 75vw; */
+    width: 150vw;
     height: 300px;
-    max-width: 1435px;
+    /* max-width: 1435px; */
+    max-width: 2870px;
     background-color: #FFEEB7;
     margin-left: 100px;
     box-shadow: 5px 5px 10px #2f2400;
@@ -202,9 +208,11 @@ export const DesmatamentoContainer3 = styled.div`
 
 export const DesmatamentoContainer4 = styled.div`
     display: flex;
-    width: 25vw;
+    /* width: 25vw; */
+    width: 50vw;
     height: 300px;
-    max-width: 485px;
+    /* max-width: 485px; */
+    max-width: 970px;
     background-color: #FFEEB7;
     margin-left: 100px;
     box-shadow: 5px 5px 10px #2f2400;
@@ -214,9 +222,11 @@ export const DesmatamentoContainer4 = styled.div`
 
 export const DesmatamentoContainer5 = styled.div`
     display: flex;
-    width: 89vw;
+    /* width: 89vw; */
+    width: 178vw;
     height: 300px;
-    max-width: 1708,5px;
+    /* max-width: 1708,5px; */
+    max-width: 3417px;
     background-color: #FFEEB7;
     margin-left: 100px;
     box-shadow: 5px 5px 10px #2f2400;
@@ -226,9 +236,11 @@ export const DesmatamentoContainer5 = styled.div`
 
 export const DesmatamentoContainer6 = styled.div`
     display: flex;
-    width: 104vw;
+    /* width: 104vw; */
+    width: 208vw;
     height: 300px;
-    max-width: 1996,5px;
+    /* max-width: 1996,5px; */
+    max-width: 3993px;
     background-color: #FFEEB7;
     margin-left: 100px;
     box-shadow: 5px 5px 10px #2f2400;
@@ -238,9 +250,11 @@ export const DesmatamentoContainer6 = styled.div`
 
 export const DesmatamentoContainer7 = styled.div`
     display: flex;
-    width: 104vw;
+    /* width: 104vw; */
+    width: 208vw;
     height: 300px;
-    max-width: 1996,5px;
+    /* max-width: 1996,5px; */
+    max-width: 3993px;
     background-color: #FFEEB7;
     margin-left: 100px;
     box-shadow: 5px 5px 10px #2f2400;
@@ -250,9 +264,11 @@ export const DesmatamentoContainer7 = styled.div`
 
 export const DesmatamentoContainer8 = styled.div`
     display: flex;
-    width: 12vw;
+    /* width: 12vw; */
+    width: 24vw;
     height: 300px;
-    max-width: 183,5px;
+    /* max-width: 183,5px; */
+    max-width: 367px;
     background-color: #FFEEB7;
     margin-left: 100px;
     box-shadow: 5px 5px 10px #2f2400;
@@ -276,9 +292,11 @@ export const TituloDesmatamento2 = styled.div`
 
 export const DesmatamentoContainer9 = styled.div`
     display: flex;
-    width: 25vw;
+    /* width: 25vw; */
+    width: 50vw;
     height: 300px;
-    max-width: 475px;
+    /* max-width: 475px; */
+    max-width: 950px;
     background-color: #FFEEB7;
     margin-left: 100px;
     box-shadow: 5px 5px 10px #2f2400;
@@ -308,9 +326,11 @@ export const BiroliroContainier = styled.div`
 
 export const DesmatamentoContainer10 = styled.div`
     display: flex;
-    width: 26vw;
+    /* width: 26vw; */
+    width: 52vw;
     height: 300px;
-    max-width: 498px;
+    /* max-width: 498px; */
+    max-width: 996px;
     background-color: #FFEEB7;
     margin-left: 100px;
     box-shadow: 5px 5px 10px #2f2400;
