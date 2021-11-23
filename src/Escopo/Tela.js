@@ -1,5 +1,5 @@
 import React from "react";
-import {Main, Pix, Container, CampoFutPixel, PortoAlegre, Amazonia, TituloAmazonica, Portugal, TituloPortugal, DetailsContainer, ReguaContainer, EscaleCotainer, DetaisTextContainer} from "./styled";
+import {Main, Container, CampoFutPixel, PortoAlegre, Amazonia, TituloAmazonica, Portugal, TituloPortugal, DetailsContainer, ReguaContainer, EscaleCotainer, DetaisTextContainer} from "./styled";
 import Description from "../components/Description/Description"
 import Figure from "../components/Figure/Figure"
 import Desmatamento from "../components/Desmatamento/Desmatamento"
@@ -11,15 +11,13 @@ const Tela = () => {
     return (
         <Main>
             <Container>
-                <h3>12 campos de futebol (8.250 m²)</h3>
-                <Pix>(1 pixel)</Pix>
+                <h3>12 campos de futebol (99 mil m²)</h3>
                 <CampoFutPixel> <div/> </CampoFutPixel>
                 <img src={indicador} alt=" foto indicador" />
             </Container>
             
             <Container>
                 <h3>Porto Alegre (496,8 km²)</h3>
-                <Pix>(70px X 70px)</Pix>
                 <PortoAlegre> </PortoAlegre>
             </Container>
 
@@ -27,7 +25,6 @@ const Tela = () => {
                 <Portugal>
                     <TituloPortugal>
                         <h3>Portugal (92.212 km²)</h3>
-                        <h3>(1840px X 500px)</h3>
                     </TituloPortugal>
                 </Portugal>
             </Container>
